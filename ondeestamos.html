@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <title>Juunishi - Nossa Localização</title>
+    <link rel="stylesheet" href="ondeestamos.css">
+</head>
+
+<body>
+    <header>
+        <img class ="logo" src="img/logo.png">
+        <img class = "hamburguer" src="img\hamburguer.png">
+    </header>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3247730277944!2d-46.73036142488015!3d-23.52081857882771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1684802365651!5m2!1spt-BR!2sbr"></iframe>
+
+    <br/><br/><br/><br/><br/>
+
+    <form>
+        <fieldset>
+            <legend>Fale Conosco</legend>
+
+            <label for="mens">Selecione o tipo de Mensagem:</label> 
+            <select name="mens" id="mens">
+                <option value = "Elogio">Elogio</option>
+                <option value = "Critica">Crítica</option>
+                <option value = "Duvida">Dúvida</option>
+                <option value = "Sugestao">Sugestão</option>
+                <option value = "Reclamacao">Reclamação</option>
+            </select>
+
+            <br/><br/>
+
+            <textarea name ="msg_cliente" id="msg_cliente" cols="30" rows="10"></textarea>
+            
+        </fieldset>
+    </form>

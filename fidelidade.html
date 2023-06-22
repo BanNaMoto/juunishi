@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <title>Juunishi - Juuni Club</title>
+    <link rel="stylesheet" href="fidelidade.css">
+</head>
+
+<body>
+    <header>
+        <img class ="logo" src="img/logo.png">
+        <img class = "hamburguer" src="img\hamburguer.png">
+    </header>
+
+    <section id="text_JC">
+        <h2 class="titulo_JC">Juuni Club</h2>
+        <p>
+            O Juuni Club é o clube de fidelidade do Junnish, além de ser o lugar onde os amantes da culinária japonesa e do horóscopo japonês encontram uma experiência exclusiva e recompensadora.
+            Nossa equipe tem o prazer de oferecer a você um programa de fidelidade especial, como forma de agradecer pela sua lealdade e apreciação pela nossa cozinha e cultura.
+            <br/><br/>
+            Ao se juntar ao nosso Clube de Fidelidade, você se torna parte de uma comunidade apaixonada pela gastronomia japonesa e pelos mistérios do horóscopo japonês.
+            Como membro, você terá acesso a uma variedade de benefícios exclusivos que tornarão suas visitas ao Juunish ainda mais gratificantes.
+            <br/><br/>
+            Ao fazer parte do Clube de Fidelidade, você poderá desfrutar de vantagens como:<br/><br/>
+            <span class="topicos">1- Pontos de fidelidade:</span> A cada visita ao Juunish, você acumulará pontos de fidelidade, que poderão ser trocados por descontos especiais,
+            pratos extras ou até mesmo brindes exclusivos.
+            <br/><br/>
+            <span class="topicos">2- Promoções exclusivas:</span> Como membro do Clube de Fidelidade, você receberá em primeira mão informações sobre promoções e eventos especiais.
+            Terá acesso a ofertas exclusivas, como descontos em determinados dias da semana, combos especiais e degustações exclusivas de novos pratos.
+            <br/><br/>
+            <span class="topicos">3- Reservas prioritárias:</span> Valorizamos a sua preferência e queremos garantir que você tenha acesso privilegiado às reservas.
+            Como membro do Clube de Fidelidade, você terá prioridade na marcação de mesas, mesmo em períodos de grande demanda.
+            <br/><br/>
+            <span class="topicos">4- Experiências personalizadas:</span> Conhecemos você e valorizamos a sua conexão com o horóscopo japonês. Por isso, como membro do Clube de Fidelidade,
+            nossos atendentes estarão prontos para oferecer sugestões de pratos e harmonizações que estejam em sintonia com o seu signo astrológico,
+            proporcionando uma experiência personalizada e memorável.
+        </p>
+    </section><br/><br/>
+
+    <form id="formulario" name="formulario" method="post" action="mailto:lorenzo.aggio@etec.sp.gov.br" enctype="text/plain">
+        <table>
+            <tr>
+                <td class="direita">
+                    <label for="txtnome">Nome completo:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtnome" id="txtnome" maxlength="30" placeholder="Preencha o nome completo" required autofocus />
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtcpf">CPF:</label>
+                </td>
+                <td> <input type="text" name="txtcpf" id="txtcpf" placeholder="999.999.999-99"></td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtsexo">Sexo:</label>
+                </td>
+                <td>   
+                    <input type="radio" id="txtsexof" name="txtsexo" value="F" /><spanf>Feminino</spanf>
+                    <input type="radio" id="txtsexom" name="txtsexo" value="M" checked /><spanm>Masculino</spanm>
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtnasc">Data de Nascimento:</label>
+                </td>
+                <td>   
+                    <input type="date" id="txtnasc" name="txtnasc"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtemail">E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" name="txtemail" id="txtemail" maxlength="40" required />
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtuf">UF:</label>
+                </td>
+                <td>
+                    <select id="txtuf" name="txtuf">
+                        <option>AC</option>
+                        <option>AM</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>PR</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>RS</option>
+                        <option>SC</option>
+                        <option>SE</option>
+                        <option selected>SP</option>
+                        <option>TO</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtcida">Cidade:</label>
+                </td>
+                <td>
+                    <input type="text" name="txtcida" id="txtcida" placeholder="Insira o nome de sua cidade" maxlength="30" />
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                        <label for="txtende">Endereço:</label>
+                </td>
+                <td>
+                    <input type="text" id="txtende" name="txtende" placeholder="Insira seu endereço">
+                </td>
+            </tr>
+            <tr>
+                <td class="direita">
+                    <label for="txtele">Telefone:</label>
+                </td>
+                <td>
+                     <input type = "text" id = "txttel" name = "txttel" placeholder = "(99) 9999-9999" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="centralizado">
+                    <section class="formulario_botao">
+                    <input type="submit" value="Enviar" />
+                    <br/>
+                    <input type="reset" value="Limpar" onClick="window.document.getElementById('txtnome').focus();"/>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>

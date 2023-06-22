@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    background-color: #5D5A56;
+    color: #ffffff;
+}
+
+textarea
+{
+    background-color:#0D160B;
+    color: #ffffff;
+}
+
+fieldset
+{
+    color: Vermelho - #F60818;
+}
+
+header
+{
+    background-color:#ffffff;
+}
+
+#slide
+{
+    transform: all 600ms ease-in-out;
+}
+@media only screen and (max-width: 700px)
+{
+    iframe
+    {
+        margin-top: 5%;
+        margin-left: 15%;
+        height: 40vw;
+        width: 70vw;
+    }
+
+    textarea
+    {
+        margin-left: 10%;
+        resize: none;
+    }
+    header
+    {
+        width: 100%;
+        height: 20vw;
+        text-align: center;
+    }
+
+    .logo
+    {
+        width: 20%;
+        height: 16vw;
+    }
+
+    .hamburguer
+    {
+        width: 12%;
+        height: 10vw;
+        right: 2vw;
+        position: fixed;
+    }
+
+}
